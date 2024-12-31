@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWORK - Your Freelancing Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <h1 id="logo"><k>R</k>WORK</h1>&nbsp;
+            <p id="mn">Your Freelancing Marketplace</p>
+        <div class="navbar" id="navbar">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABe0lEQVR4nO2ZwU7DMAyGe4LjEMf1TdZNggvj0dvDeBcoO7ofaumGhrrRJG4SovxSb13+fpvtenZRZGVlZSUp4B7YA6UHrxJ4Be60D35ApKHrQOQd2KoaXHptB49vr6b31jp4dYY4XSKfwJOKwaVXhcjHL6834FEfYiGYSYhOAWbIiWsQPwatRpiN4dT+4dVY5cyQbLcOVoKZBdGNF+xtDMpz0s2D2Vl47GZDyFBk1sYgo9HmatxO58yzSk50C+SjIcxxDox3iCVggkFowgSH0ICJBsIFJjoIy7LZGt2LeRl3ktG3HNsvsRhMSAg1mBggnGFigrCGiRHCEmRWO/NfQiseGNyTPTwMeuU3HAz6L0T/MEm0KFg0gIafOfrofK272Gg6YBQeJDgMig8Q8v96pW0cYoJSLWXoDYZUBnTEOTJ9SWGIXVsvfsa1Qu2jPN6czogctHYktadFz2Zi0eMOkdTq7aQ+PsdlqN1o30DAuk9s9WVoVlZWVhGLvgAEDK3Ftl4eOgAAAABJRU5ErkJggg==" alt="delete-sign" class="fa" onclick="hideMenu()">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaklEQVR4nO3YywmAMBQF0ZSn9r9WENu4b6xAERQ/OAeyz10EhrQmSdJFgIFkoopXn2QC+u0hyfz4JevwmOUHQ6AnGT8wYgS6029JkiTpRpjx9bL6jRmPGS9JkrTPjC8zHn/j8TdektQuswIHESijedm7awAAAABJRU5ErkJggg==" alt="menu--v6" class="fa" onclick="showMenu()">
+        </nav>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Wide Range of Categories: Find freelancers in various fields.</li>
+            <li>Secure Payments: Safe and reliable payment methods.</li>
+            <li>User-Friendly Interface: Easy navigation for both freelancers and clients.</li>
+            <li>24/7 Support: We're here to help you anytime.</li>
+        </ul>
+    </section>
+    <script>
+        alert("Welcome to RWORK where freelance service come to reality");
+    </script>
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="process">
+            <div class="step">
+                <h3>1. Sign Up</h3>
+                <p>Create your account as a freelancer or client.</p>
+            </div>
+            <div class="step">
+                <h3>2. Browse and Post Jobs</h3>
+                <p>Freelancers can browse jobs, and clients can post job offers.</p>
+            </div>
+            <div class="step">
+                <h3>3. Get Hired or Hire</h3>
+                <p>Get hired for projects or hire the right talent for your needs.</p>
+            </div>
+            <div class="step">
+                <h3>4. Get Paid</h3>
+                <p>Complete your projects and get paid securely through our platform.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>"RWORK has changed the way I find freelance talent. Highly recommended!" - Client A</p>
+        <p>"I love working on RWORK! I’ve found some amazing projects here." - Freelancer</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form action="mailto:revivalitura1gmail.com" method="post">
+            <P><input type="text" name="name" placeholder="Your Name" required></P>
+            <p><input type="email" name="email" placeholder="Your Email" required></P>
+            <P><textarea name="message" placeholder="Your Message" required></textarea></P>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        &copy; RWORK 2024, All right reserved
+    </footer>
+    <script>
+        var navbar = document.getElementById("navbar");
+
+        function showMenu(){
+            navbar.style.right ="0";
+        }
+        function hideMenu(){
+            navbar.style.right ="-200px";
+        }
+    </script>
+    </body>
+    </html>
